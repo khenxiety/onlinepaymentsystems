@@ -40,6 +40,11 @@ export class PaymentPageComponent implements OnInit {
     header.classList.toggle('open');
 
   }
+  onScroll() {
+    const header= document.getElementById('header')!;
+    header.style.backgroundColor = 'pink';
+
+  }
 
 
 
